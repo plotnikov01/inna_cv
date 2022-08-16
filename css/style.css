@@ -58,7 +58,7 @@ body {
 .wrapper {
   -webkit-box-shadow: 5px 8px 10px 7px rgba(0, 0, 0, 0.56);
   box-shadow: 5px 8px 10px 7px rgba(0, 0, 0, 0.56);
-  background-image: url(../img/background.png);
+  background-image: url(../../img/background.png);
   width: 144rem;
   max-width: 100%;
   margin: auto; }
@@ -160,7 +160,7 @@ body {
       font-weight: 300; } }
 
 .experience__text {
-  margin: 11.5rem 14rem 1.2rem;
+  margin: 11.5rem 16.5rem 1.2rem;
   text-transform: uppercase;
   font-size: 3.4rem;
   font-weight: 500;
@@ -469,19 +469,19 @@ body {
     @media screen and (max-width: 425px) {
       .header__image {
         margin: 0 auto;
-        height: 42rem; } }
+        height: 43rem; } }
     @media screen and (max-width: 400px) {
       .header__image {
         margin: 0 auto;
-        height: 40rem; } }
+        height: 41rem; } }
     @media screen and (max-width: 380px) {
       .header__image {
         margin: 0 auto;
-        height: 37rem; } }
+        height: 39rem; } }
     @media screen and (max-width: 360px) {
       .header__image {
         margin: 0 auto;
-        height: 35rem; } }
+        height: 36rem; } }
   .header__info {
     display: inline-block;
     margin: 6rem 5rem;
