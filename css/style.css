@@ -118,7 +118,7 @@ body {
   padding-bottom: 3rem; }
   @media screen and (max-width: 425px) {
     .header__contacts--text {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       line-height: 1.58rem;
       border-bottom: 1.5px solid rgba(247, 247, 247, 0.3);
       width: 100%;
@@ -132,7 +132,7 @@ body {
   text-decoration: none; }
   @media screen and (max-width: 425px) {
     .header__link--info-text {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       line-height: 1.58rem;
       padding: .6rem 0; } }
 
@@ -148,7 +148,7 @@ body {
     transition: .4s; }
   @media screen and (max-width: 425px) {
     .header__link--info-link {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       line-height: 1.58rem;
       padding: .6rem 0; } }
 
@@ -201,7 +201,8 @@ body {
     .experience__work--topic {
       font-size: 1.8rem;
       line-height: 1.95rem;
-      font-weight: 500; } }
+      font-weight: 500;
+      padding: .3rem 0; } }
 
 .experience__work--text {
   font-weight: 300;
@@ -289,6 +290,9 @@ body {
   font-weight: 500;
   letter-spacing: 0em;
   text-align: left; }
+  @media screen and (max-width: 760px) {
+    .footer__wrapper--name {
+      padding-right: 1rem; } }
   @media screen and (max-width: 425px) {
     .footer__wrapper--name {
       font-size: 1.8rem;
@@ -350,7 +354,7 @@ body {
       width: 90%; } }
 
 .experience__border {
-  border: 0.5px solid rgba(247, 247, 247, 0.3);
+  border-bottom: 1px solid rgba(247, 247, 247, 0.3);
   width: 29%;
   margin-left: 19%; }
   @media screen and (max-width: 800px) {
@@ -413,7 +417,7 @@ body {
     .header {
       flex-direction: column; } }
   .header__border {
-    border: 0.5px solid rgba(247, 247, 247, 0.3);
+    border-bottom: 1px solid rgba(247, 247, 247, 0.3);
     width: 65%;
     margin: 2.5rem 0; }
     @media screen and (max-width: 915px) {
@@ -432,83 +436,50 @@ body {
   .header__photo {
     max-width: 100%;
     animation-name: moveInLeft;
-    animation-duration: 1s; }
+    animation-duration: 1s;
+    border-radius: 3rem; }
     @media screen and (max-width: 912px) {
       .header__photo {
         display: none; } }
     .header__photo--medium {
       max-width: 100%;
-      border-radius: 18%;
+      animation-name: moveInLeft;
+      animation-duration: 1s;
+      display: none;
+      margin: 5rem 0; }
+      @media screen and (max-width: 912px) {
+        .header__photo--medium {
+          margin: auto;
+          display: block;
+          padding-bottom: 2.5rem; } }
+      @media screen and (max-width: 500px) {
+        .header__photo--medium {
+          display: none; } }
+    .header__photo--small {
+      max-width: 100%;
       animation-name: moveInLeft;
       animation-duration: 1s;
       display: none; }
-      @media screen and (max-width: 912px) {
-        .header__photo--medium {
-          display: block; } }
+      @media screen and (max-width: 500px) {
+        .header__photo--small {
+          display: block;
+          margin: auto;
+          padding-bottom: 2rem; } }
   .header__image {
     display: inline-block;
-    margin: 1rem 2rem; }
+    margin: 7rem; }
     @media screen and (max-width: 912px) {
       .header__image {
-        margin: 0 auto;
-        height: 60rem; } }
-    @media screen and (max-width: 900px) {
-      .header__image {
-        margin: 0 auto;
-        height: 68rem; } }
-    @media screen and (max-width: 600px) {
-      .header__image {
-        margin: 0 auto;
-        height: 63rem; } }
-    @media screen and (max-width: 580px) {
-      .header__image {
-        margin: 0 auto;
-        height: 61rem; } }
-    @media screen and (max-width: 560px) {
-      .header__image {
-        margin: 0 auto;
-        height: 59rem; } }
-    @media screen and (max-width: 540px) {
-      .header__image {
-        margin: 0 auto;
-        height: 57rem; } }
-    @media screen and (max-width: 520px) {
-      .header__image {
-        margin: 0 auto;
-        height: 57rem; } }
-    @media screen and (max-width: 500px) {
-      .header__image {
-        margin: 0 auto;
-        height: 52rem; } }
-    @media screen and (max-width: 460px) {
-      .header__image {
-        margin: 0 auto;
-        height: 48rem; } }
-    @media screen and (max-width: 425px) {
-      .header__image {
-        margin: 0 auto;
-        height: 42rem; } }
-    @media screen and (max-width: 400px) {
-      .header__image {
-        margin: 0 auto;
-        height: 40rem; } }
-    @media screen and (max-width: 380px) {
-      .header__image {
-        margin: 0 auto;
-        height: 39rem; } }
-    @media screen and (max-width: 360px) {
-      .header__image {
-        margin: 0 auto;
-        height: 36rem; } }
+        margin: 0 auto; } }
   .header__info {
-    display: inline-block;
-    margin: 6rem 5rem;
+    padding: 9rem 5rem;
     animation-name: moveInRight;
     animation-duration: 1s; }
     @media screen and (max-width: 912px) {
       .header__info {
         width: 76%;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        padding: 0; } }
     @media screen and (max-width: 650px) {
       .header__info {
         width: 90%;
